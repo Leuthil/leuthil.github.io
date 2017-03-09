@@ -29,21 +29,22 @@
 <!-- Game Info -->
 <section id="gameinfo">
 	<div class="inner">
-		<section>
-			
-			<ul class="alt">
-				{% if page.engine %}<li>Engine: {{ page.engine }}</li>{% endif %}
-			</ul>
-		</section>
-		<section>
-			<div class="box alt">
-				<div class="row 50% uniform">
-					{% for media in page.media %}
-						<div class="{% cycle '4u', '4u', '4u$' %}"><span class="image fit"><img src="{{ media.url }}" alt="{{ media.name }}" /></span></div>
-					{% endfor %}
+		<div class="row 200%">
+			<div class="6u 12u$(medium)">
+				<ul class="alt">
+					{% if page.engine %}<li>Engine: {{ page.engine }}</li>{% endif %}
+				</ul>
+			</div>
+			<div class="6u$ 12u$(medium)">
+				<div class="box alt">
+					<div class="row 50% uniform">
+						{% for media in page.media %}
+							<div class="{% cycle '4u', '4u', '4u$' %}"><span class="image fit"><img src="{{ media.url }}" alt="{{ media.name }}" /></span></div>
+						{% endfor %}
+					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 	</div>
 </section>
 
