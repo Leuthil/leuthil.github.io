@@ -364,9 +364,17 @@ Finally, this is a <a href="#">link</a>.</p>
 {% if page.media %}
 <div class="box alt">
 	<div class="row 50% uniform">
-		{% for media in page.media %}
-			<div class="{% cycle '4u', '4u', '4u$' %}"><span class="image fit"><img src="{{ media.url }}" alt="{{ media.name }}" /></span></div>
-		{% endfor %}
+		<div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
 	</div>
 </div>
 {% endif %}
