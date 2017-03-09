@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Home
-landing-title: Games
-description: Check out my work below.
+landing-title: Portfolio
+description: 
 image: 
 author: 
 nav-menu: 
