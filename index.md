@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: Hi, my name is Forty
-description: 
+description: Please check out the projects I've created/contributed to below.
 image: 
 author: 
 nav-menu: 
