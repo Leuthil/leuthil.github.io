@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Hi, my name is Forty
+landing-title: Games
 description: Please check out the projects I've created/contributed to below.
 image: 
 author: 
