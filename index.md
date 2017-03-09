@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: Games
-description: Please check out the projects I've created/contributed to below.
+description: Check out my work below.
 image: 
 author: 
 nav-menu: 
@@ -17,7 +17,7 @@ nav-menu:
 		<div class="content">
 			<p style="text-transform: uppercase;">{{ page.description }}</p>
 			<ul class="actions">
-				<li><a href="#one" class="button next scrolly">Get Started</a></li>
+				<li><a href="#one" class="button next scrolly">View Work</a></li>
 			</ul>
 		</div>
 	</div>
