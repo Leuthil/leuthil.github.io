@@ -9,19 +9,20 @@ nav-menu:
 ---
 
 <!-- Banner -->
+<!--
 <section id="banner" class="major">
 	<div class="inner">
 		<header class="major">
 			<h1>{{ page.landing-title }}</h1>
 		</header>
 		<div class="content">
-			<!--<p style="text-transform: uppercase;">{{ page.description }}</p>-->
 			<ul class="actions">
 				<li><a href="#one" class="button next scrolly">View Work</a></li>
 			</ul>
 		</div>
 	</div>
 </section>
+-->
 
 <!-- Main -->
 <div id="main">
