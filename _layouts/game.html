@@ -73,7 +73,7 @@
 									{% if media.type == "gfycat" %}
 
 									<a data-src='#{{ media.url }}' data-fancybox="gallery" href="#">
-										<div class='gfyitem' id='{{ media.url }}' data-id='{{ media.url }}' data-autoplay=true data-controls=false></div>
+										<div class='gfyitem' id='{{ media.url }}' data-id='{{ media.url }}' data-responsive=true data-autoplay=true data-controls=false></div>
 									</a>
 									
 									{% elsif media.type == "video" %}
