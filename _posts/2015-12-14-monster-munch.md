@@ -12,6 +12,9 @@ url: http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=24714
 thumbnail: http://ludumdare.com/compo/wp-content/compo2//511439/24714-shot0-1450151525.jpg-crop-180-140.jpg
 media:
   - name:
+    type: gfycat
+    url: UnfortunateIllfatedAmericanbadger
+  - name:
     type: video
     url: /images/games/monstermunch/monstermunch-gameplay1.mp4
   - name:
