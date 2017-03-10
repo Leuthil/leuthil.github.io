@@ -33,13 +33,25 @@
 			<div class="6u 12u$(medium)">
 				<h3>Development Information</h3>
 				{% if page.engine || page.thirdparty %}
-				<h4>Made with:</h4>
-				<ul>
-					{% if page.engine %}<li>{{ page.engine }}</li>{% endif %}
-					{% for tool in page.thirdparty %}
-					<li>{% if tool.url %}<a href="{{ tool.url }}" target="_blank">{% endif %}{{ tool.name }}{% if tool.url %}</a>{% endif %}</li>
-					{% endfor %}
-				</ul>
+					<section class="split">
+					<h4>Made with:</h4>
+					<ul>
+						{% if page.engine %}<li>{{ page.engine }}</li>{% endif %}
+						{% for tool in page.thirdparty %}
+						<li>{% if tool.url %}<a href="{{ tool.url }}" target="_blank">{% endif %}{{ tool.name }}{% if tool.url %}</a>{% endif %}</li>
+						{% endfor %}
+					</ul>
+					</section>
+				{% endif %}
+				{% if page.platforms %}
+					<section class="split">
+					<h4>Available on:</h4>
+					<ul class="actions">
+						{% for platform in page.platforms %}
+						<li>{% if platform.url %}<a href="{{ platform.url }}" target="_blank">{% endif %}{{ platform.name }}{% if platform.url %}</a>{% endif %}</li>
+						{% endfor %}
+					</ul>
+					</section>
 				{% endif %}
 			</div>
 			<div class="6u$ 12u$(medium)">
