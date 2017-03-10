@@ -23,9 +23,6 @@ media:
   - name: 
     type: image
     url: /images/games/monstermunch/monstermunch3.JPG
-  - name:
-    type: youtube
-    url: f-o4EEgnjMw
 thirdparty:
   - name: InControl
     url: http://www.gallantgames.com/pages/incontrol-introduction
