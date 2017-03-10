@@ -72,9 +72,9 @@
 								<span class="image fit">
 									{% if media.type == "gfycat" %}
 									
-									<div class='gfyitem' id='{{ media.url }}' data-id='UnfortunateIllfatedAmericanbadger' style='display: none;'></div>
-									<a data-fancybox data-src='#{{ media.url }}'  href="javascript:;">
-										<img src="{{ media.thumbnail }}" alt="{{ media.name }}" />
+									
+									<a data-src='#{{ media.url }}' data-fancybox="gallery">
+										<div class='gfyitem' id="{{ media.url }}" data-id='{{ media.url }}'></div>
 									</a>
 									{% elsif media.type == "video" %}
 									<a href="{{ media.url }}" data-fancybox="gallery">
