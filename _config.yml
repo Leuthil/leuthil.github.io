@@ -12,7 +12,7 @@ title-normal: Game Developer
 email: me@andrewbruno.ca
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://leuthil.github.io/" # the base hostname & protocol for your site
+url: "https://leuthil.github.io" # the base hostname & protocol for your site
 author: 
 street_address: 
 city: 
