@@ -75,16 +75,12 @@
 									<div style="display: none; background: transparent;" id="{{ media.url }}">
 										<div class='gfyitem' data-id='{{ media.url }}'></div>
 									</div>
-									
-									<!--<video id="{{ media.url }}-video" poster="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" autoplay="" muted="" loop="">
-									   <source id="mobile-mp4Source" src="https://thumbs.gfycat.com/{{ media.url }}-mobile.mp4" type="video/mp4">
-									   <source id="webmSource" src="https://zippy.gfycat.com/{{ media.url }}.webm" type="video/webm">
-									   <source id="mp4Source" src="https://zippy.gfycat.com/{{ media.url }}.mp4" type="video/mp4">
-									   <img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg">
-									</video>-->
-									
 									<a data-src="#{{ media.url }}" data-fancybox="gallery" href="javascript:;">
 										<img src="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" alt="{{ media.name }}" />
+									</a>
+									{% elsif %}
+									<a href="https://www.youtube.com/watch?v={{ media.url }}&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" data-fancybox="gallery">
+										<img src="https://img.youtube.com/vi/{{ media.url }}/default.jpg" alt="{{ media.name }}" />
 									</a>
 									{% else %}
 									<a href="{{ media.url }}" data-fancybox="gallery">
