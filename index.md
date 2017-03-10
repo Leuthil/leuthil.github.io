@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: Portfolio
-description: Test stuff for what we think we are yes.
+description: Take a look around.
 image: 
 author: 
 nav-menu: 
