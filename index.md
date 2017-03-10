@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Portfolio
 landing-title: Portfolio
 description: Take a look around.
 image: 
