@@ -71,15 +71,14 @@
 							<div class="{% cycle '4u', '4u', '4u$' %}">
 								<span class="image fit">
 									{% if media.type == "gfycat" %}
-									<div id="{{ media.url }}">
-										<div class='gfyitem' data-responsive=true data-id='{{ media.url }}'></div>
+									
+									<div class='gfyitem' id="{{ media.url }}" style="display: none;" data-responsive=true data-id='{{ media.url }}'></div>
 									<!--<video id="{{ media.url }}-video" poster="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" autoplay="" muted="" loop="">
 									   <source id="mobile-mp4Source" src="https://thumbs.gfycat.com/{{ media.url }}-mobile.mp4" type="video/mp4">
 									   <source id="webmSource" src="https://zippy.gfycat.com/{{ media.url }}.webm" type="video/webm">
 									   <source id="mp4Source" src="https://zippy.gfycat.com/{{ media.url }}.mp4" type="video/mp4">
 									   <img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg">
 									</video>-->
-									</div>
 									
 									<a href="#{{ media.url }}" data-fancybox="gallery" href="javascript:;">
 										<img src="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" alt="{{ media.name }}" />
