@@ -31,9 +31,15 @@
 	<div class="inner">
 		<div class="row 200%">
 			<div class="6u 12u$(medium)">
-				<ul class="alt">
-					{% if page.engine %}<li>Engine: {{ page.engine }}</li>{% endif %}
+				{% if page.engine || page.thirdparty %}
+				<h4>Made with:</h4>
+				<ul>
+					{% if page.engine %}<li>{{ page.engine }}</li>{% endif %}
+					{% for tool in page.thirdparty %}
+					<li>{% if tool.url %}<a href="{{ tool.url }}" target="_blank">{% endif %}{{ tool.name }}{% if tool.url %}</a>{% endif %}</li>
+					{% endfor %}
 				</ul>
+				{% endif %}
 			</div>
 			<div class="6u$ 12u$(medium)">
 				<div class="box alt">
