@@ -15,9 +15,6 @@ media:
     type: gfycat
     url: UnfortunateIllfatedAmericanbadger
   - name:
-    type: video
-    url: /images/games/monstermunch/monstermunch-gameplay1.mp4
-  - name:
     type: image
     url: /images/games/monstermunch/monstermunch1.JPG
   - name: 
