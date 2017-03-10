@@ -78,7 +78,7 @@
 									<a data-src="#{{ media.url }}" data-fancybox="gallery" href="javascript:;">
 										<img src="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" alt="{{ media.name }}" />
 									</a>
-									{% elsif %}
+									{% elsif media.type == "youtube" %}
 									<a href="https://www.youtube.com/watch?v={{ media.url }}&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" data-fancybox="gallery">
 										<img src="https://img.youtube.com/vi/{{ media.url }}/default.jpg" alt="{{ media.name }}" />
 									</a>
