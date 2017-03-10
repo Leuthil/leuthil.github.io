@@ -59,7 +59,13 @@
 				<div class="box alt">
 					<div class="row 50% uniform">
 						{% for media in page.media %}
-							<div class="{% cycle '4u', '4u', '4u$' %}"><span class="image fit"><img src="{{ media.url }}" alt="{{ media.name }}" /></span></div>
+							<div class="{% cycle '4u', '4u', '4u$' %}">
+								<span class="image fit">
+									<a href="{{ media.url }}" data-lightbox="roadtrip">
+										<img src="{{ media.url }}" alt="{{ media.name }}" />
+									</a>
+								</span>
+						</div>
 						{% endfor %}
 					</div>
 				</div>
