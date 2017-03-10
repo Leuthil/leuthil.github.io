@@ -62,8 +62,9 @@
 							<div class="{% cycle '4u', '4u', '4u$' %}">
 								<span class="image fit">
 									{% if media.type == "gfycat" %}
-									<a href="{{ 'https://gfycat.com/' | append: media.url }}" data-fancybox="gallery">
-										<img src="{{ media.url }}" alt="{{ media.name }}" />
+									
+									<a data-fancybox data-src='https://gfycat.com/ifr/{{ media.url }}'  href="javascript:;">
+										<img src="{{ media.thumbnail }}" alt="{{ media.name }}" />
 									</a>
 									{% elsif media.type == "video" %}
 									<a href="{{ media.url }}" data-fancybox="gallery">
