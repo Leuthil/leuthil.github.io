@@ -13,7 +13,7 @@ thumbnail: http://ludumdare.com/compo/wp-content/compo2//511439/24714-shot0-1450
 media:
   - name:
     type: gfycat
-    url: UnfortunateIllfatedAmericanbadger
+    url: /images/games/monstermunch/monstermunch-gameplay1.mp4
   - name:
     type: image
     url: /images/games/monstermunch/monstermunch1.JPG
