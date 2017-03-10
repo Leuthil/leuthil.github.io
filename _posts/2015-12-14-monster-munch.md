@@ -3,6 +3,7 @@ layout: game
 title: Monster Munch
 created: 2015-12-14
 description: Ludum Dare 34 Jam Entry
+image: /images/games/monstermunch/monstermunch1.JPG
 engine: Unity
 platforms:
   - name: Unity Web Player
