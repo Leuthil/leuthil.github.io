@@ -72,6 +72,15 @@
 								<span class="image fit">
 									{% if media.type == "gfycat" %}
 
+									<div style="display: none;" id="{{ media.url }}">
+									<video poster="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" autoplay="" muted="" loop="">
+									   <source id="mobile-mp4Source" src="https://thumbs.gfycat.com/{{ media.url }}-mobile.mp4" type="video/mp4">
+									   <source id="webmSource" src="https://zippy.gfycat.com/{{ media.url }}.webm" type="video/webm">
+									   <source id="mp4Source" src="https://zippy.gfycat.com/{{ media.url }}.mp4" type="video/mp4">
+									   <img title="Sorry, your browser doesn't support HTML5 video." src="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg">
+									</video>
+									</div>
+									
 									<a data-src='#{{ media.url }}' data-fancybox="gallery" href="#">
 										<div class='gfyitem' id='{{ media.url }}' data-id='{{ media.url }}' data-responsive=true data-autoplay=true data-controls=false></div>
 									</a>
