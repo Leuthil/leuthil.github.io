@@ -61,9 +61,15 @@
 						{% for media in page.media %}
 							<div class="{% cycle '4u', '4u', '4u$' %}">
 								<span class="image fit">
+									{% if media.type == "gfycat" %}
+									<a href="{{ 'https://gfycat.com/' | append: media.url }}" data-fancybox="gallery">
+										<img src="{{ media.url }}" alt="{{ media.name }}" />
+									</a>
+									{% else %}
 									<a href="{{ media.url }}" data-fancybox="gallery">
 										<img src="{{ media.url }}" alt="{{ media.name }}" />
 									</a>
+									{% endif %}
 								</span>
 						</div>
 						{% endfor %}
