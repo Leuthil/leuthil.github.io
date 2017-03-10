@@ -80,7 +80,7 @@
 									</video>
 									</div>
 									
-									<a href="#{{ media.url }}" data-fancybox="gallery" href="javascript:;">
+									<a href="#{{ media.url }}" data-fancybox="gallery" href="javascript:;" onclick="document.getElementById("{{ media.url }}-video").play();">
 										<img src="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" alt="{{ media.name }}" />
 									</a>
 									{% else %}
