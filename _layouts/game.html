@@ -48,7 +48,7 @@
 					<h4>Available on:</h4>
 					<ul class="actions">
 						{% for platform in page.platforms %}
-						<li>{% if platform.url %}<a href="{{ platform.url }}" target="_blank">{% endif %}{{ platform.name }}{% if platform.url %}</a>{% endif %}</li>
+						<li>{% if platform.url %}<a href="{{ platform.url }}" class="button" target="_blank">{% endif %}{{ platform.name }}{% if platform.url %}</a>{% endif %}</li>
 						{% endfor %}
 					</ul>
 					</section>
