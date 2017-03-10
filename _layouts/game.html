@@ -73,7 +73,7 @@
 									{% if media.type == "gfycat" %}
 									
 									<div style="display: none;" id="{{ media.url }}">
-									<iframe src='https://gfycat.com/ifr{{ media.url }}' frameborder='0' scrolling='no' width='640' height='430' allowfullscreen></iframe>
+										<div class='gfyitem' data-id='{{ media.url }}'></div>
 									</div>
 									
 									<!--<video id="{{ media.url }}-video" poster="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" autoplay="" muted="" loop="">
