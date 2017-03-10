@@ -72,7 +72,7 @@
 								<span class="image fit">
 									{% if media.type == "gfycat" %}
 
-									<video style="display: none;" id="{{ media.url }}" poster="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" autoplay="" muted="" loop="">
+									<!--<video style="display: none;" id="{{ media.url }}" poster="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" autoplay="" muted="" loop="">
 									   <source id="mobile-mp4Source" src="https://thumbs.gfycat.com/{{ media.url }}-mobile.mp4" type="video/mp4">
 									   <source id="webmSource" src="https://zippy.gfycat.com/{{ media.url }}.webm" type="video/webm">
 									   <source id="mp4Source" src="https://zippy.gfycat.com/{{ media.url }}.mp4" type="video/mp4">
@@ -81,6 +81,10 @@
 									
 									<a data-src='#{{ media.url }}' data-fancybox="gallery" href="#">
 										<div class='gfyitem' id='{{ media.url }}' data-id='{{ media.url }}' data-responsive=true data-autoplay=true data-controls=false></div>
+									</a>-->
+									
+									<a href="https://thumbs.gfycat.com/{{ media.url }}-mobile.mp4" data-fancybox="gallery">
+										<img src="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" alt="{{ media.name }}" />
 									</a>
 									
 									{% elsif media.type == "video" %}
