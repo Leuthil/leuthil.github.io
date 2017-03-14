@@ -72,16 +72,15 @@
 							<div class="{% cycle '4u', '4u', '4u$' %}">
 								<span class="image fit">
 									{% if media.type == "gfycat" %}
-									
 									<div style="display: none; background: transparent;" id="{{ media.url }}">
 										<div class='gfyitem' data-id='{{ media.url }}'></div>
 									</div>
 									<a data-src="#{{ media.url }}" data-fancybox="gallery" href="javascript:;">
-										<img src="https://thumbs.gfycat.com/{{ media.url }}-poster.jpg" alt="{{ media.name }}" />
+										<img src="https://i.vimeocdn.com/filter/overlay?src0=https://thumbs.gfycat.com/{{ media.url }}-poster.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png" alt="{{ media.name }}" />
 									</a>
 									{% elsif media.type == "youtube" %}
 									<a href="https://www.youtube.com/watch?v={{ media.url }}&amp;autoplay=1&amp;rel=0&amp;controls=1&amp;showinfo=0&amp;modestbranding=1&amp;playsinline=1" data-fancybox="gallery">
-										<img src="https://img.youtube.com/vi/{{ media.url }}/mqdefault.jpg" alt="{{ media.name }}" />
+										<img src="https://i.vimeocdn.com/filter/overlay?src0=https://img.youtube.com/vi/{{ media.url }}/mqdefault.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png" alt="{{ media.name }}" />
 									</a>
 									{% else %}
 									<a href="{{ media.url }}" data-fancybox="gallery">
