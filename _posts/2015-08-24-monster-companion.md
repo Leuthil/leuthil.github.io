@@ -3,6 +3,7 @@ layout: game
 title: Monster Companion
 description: Ludum Dare 33 Jam Entry
 image: http://ludumdare.com/compo/wp-content/compo2/479518/24714-shot0-1440463434.jpg
+banner: http://ludumdare.com/compo/wp-content/compo2/479518/24714-shot0-1440463434.jpg
 engine: Unity
 platforms:
   - name: WebGL
