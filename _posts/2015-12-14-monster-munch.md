@@ -34,4 +34,6 @@ You work at a food production facility but haven't eaten all day. Your boss leav
 
 ## Development ##
 
-This game is designed to really explore the concept of using two analog sticks to control a character's limbs. I began by first prototyping the limb movement using two analog sticks. This involved creating a basic form of inverse kinematics through Unity's physics engine. The arm is made up of different joints with specific angle limits to make the arm movement more realistic. Then when the player moves each analog stick, it applies physics forces to the hands in the desired direction and also applies some rotation.
+In many games that utilize dual analog stick control schemes, one stick is usually dedicated to player movement. For this game I really wanted to explore the concept that each analog stick would control a separate limb to see how well players can focus on more than one thing at a time.
+
+I began by first prototyping the limb movement using two analog sticks. This involved creating a basic form of inverse kinematics through Unity's physics engine. The arm is made up of different joints with specific angle limits to make the arm movement more realistic. Then when the player moves each analog stick, it applies physics forces to the hands in the desired direction and also applies some rotation.
