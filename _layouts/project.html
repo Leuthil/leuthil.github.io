@@ -35,17 +35,16 @@
 <!-- Main -->
 <div id="main" class="alt">
 	
-<!-- Game Info -->
-<section id="gameinfo">
+<!-- Project Info -->
+<section id="projectinfo">
 	<div class="inner">
 		<div class="row 200%">
 			<div class="6u 12u$(medium)">
 				<h3>Development Information</h3>
-				{% if page.engine || page.thirdparty %}
+				{% if page.thirdparty %}
 					<section class="split">
 					<h4>Made with:</h4>
 					<ul>
-						{% if page.engine %}<li>{{ page.engine }}</li>{% endif %}
 						{% for tool in page.thirdparty %}
 						<li>{% if tool.url %}<a href="{{ tool.url }}" target="_blank">{% endif %}{{ tool.name }}{% if tool.url %}</a>{% endif %}</li>
 						{% endfor %}

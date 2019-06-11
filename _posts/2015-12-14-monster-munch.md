@@ -1,11 +1,10 @@
 ---
-layout: game
+layout: project
 title: Monster Munch
 created: 2015-12-14
 description: Ludum Dare 34 Jam Entry
 image: /images/games/monstermunch/monstermunch1.JPG
 banner: /images/games/monstermunch/monstermunch1.JPG
-engine: Unity
 platforms:
   - name: Unity Web Player
     url: http://leuthil.itch.io/monster-munch
@@ -25,6 +24,8 @@ media:
     type: image
     url: /images/games/monstermunch/monstermunch3.JPG
 thirdparty:
+  - name: Unity
+    url: https://unity.com/
   - name: InControl
     url: http://www.gallantgames.com/pages/incontrol-introduction
 ---

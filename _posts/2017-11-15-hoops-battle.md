@@ -1,11 +1,10 @@
 ---
-layout: game
+layout: project
 title: Hoops Battle
 created: 2017-11-15
 description: Multiplayer Basketball Duels
 image: /images/games/hoopsbattle/hoopsbattle1.jpg
 banner: /images/games/hoopsbattle/hoopsbattle1.jpg
-engine: Unity
 platforms:
   - name: Android
     url: https://play.google.com/store/apps/details?id=ca.andrewbruno.hoopsbattle
@@ -25,6 +24,8 @@ media:
     type: image
     url: /images/games/hoopsbattle/hoopsbattle2.jpg
 thirdparty:
+  - name: Unity
+    url: https://unity.com/
   - name: Google Play Games plugin for Unity
     url: https://github.com/playgameservices/play-games-plugin-for-unity
 ---
