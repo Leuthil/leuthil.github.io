@@ -10,7 +10,7 @@ platforms:
   - name: Android
     url: https://play.google.com/store/apps/details?id=ca.andrewbruno.hoopsbattle
 url: https://play.google.com/store/apps/details?id=ca.andrewbruno.hoopsbattle
-thumbnail: /images/games/hoopsbattle/logo.png
+thumbnail: http://andrewbruno.ca/images/games/hoopsbattle/logo.png
 media:
   - name:
     type: image
