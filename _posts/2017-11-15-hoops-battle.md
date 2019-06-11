@@ -58,6 +58,6 @@ I wanted specific gameplay elements to capture the same joy that real basketball
 
 Building multiplayer games for mobile can introduce challenges that other platforms do not deal with, such as very poor and unreliable network conditions, or bandwidth concerns. I had two main goals: ensure that the data usage per minute was very low, and ensure that poor network conditions would not result in choppy or ugly gameplay. I decided to use many best practices outlined by [Glenn Fielder](https://gafferongames.com). The best practices which were implemented include:
 - Packet Sequencing - to handle out-of-order packets
-- Snapshot Compression - to keep packet size low by bounding and quantizing position & rotation
+- Snapshot Compression - to keep packet size low by bounding and quantizing ball positions & rotations
 - Jitter Buffer - to ensure that bad network conditions don't result in jittery gameplay
 - Snapshot Interpolation - to ensure smooth ball movement despite a low tickrate
