@@ -44,15 +44,15 @@ Despite originating as a multiplayer learning experience, the game has evolved t
 
 ### Basketball ###
 
-Before beginning work on the multiplayer component, I needed to actually implement a basketball throw and bounce mechanic that felt right. I started by integrating with Unity's mobile input system to create the basketball shoot mechanic. To generate the trajectory line, I used Unity's line renderer with a customer shader to create the dotted lined effect. To ensure the basketball bounce felt realistic, I used various [basketball reference videos](https://www.youtube.com/watch?v=ZvgJ7mVxeg0) to ensure I had set the friction and bounce factor of the basketball just right.
+Before beginning work on the multiplayer component, I needed to actually implement a basketball throw and bounce mechanic that felt right. I started by integrating with Unity's mobile input system to create the basketball shoot mechanic. To generate the trajectory line, I used the Line Renderer component with a custom shader to create the moving dotted line effect. To ensure the basketball bounce felt realistic, I used various [basketball reference videos](https://www.youtube.com/watch?v=ZvgJ7mVxeg0) to ensure I had set the friction and bounce factor of the basketball just right.
 
 ### Design ###
 
-As the target platform is mobile, I wanted to ensure that a duel was short enough to allow players to stop when they need to, but also be long enough to feel satisfying. As these duels were very short, I wanted to keep player retention high by automatically putting the player into a new duel right after finishing a previous one. I was able to implement this for all game modes.
+As the target platform is mobile, I wanted to ensure that a duel was short enough to allow players to stop when they need to, but also be long enough to feel satisfying. Deciding that the optimal game length was relatively short, I wanted to keep player retention high by automatically putting the player into a new duel right after finishing a previous one. I was able to implement this for all game modes.
 
 ### Nothing but Net ###
 
-I wanted specific gameplay elements to capture the same joy that real basketball can give you. One of the most satisfying aspects of basketball is the basketball mesh's reaction to the ball going in. To accomplish this, I ended up blending 3D with 2D, where the net mesh utilizes a cloth renderer. Lastly, in order to have the 2D ball interact with the cloth renderer, I added a 3D collider to the ball.
+I wanted specific gameplay elements to capture the same joy that real basketball can give you. One of the most satisfying aspects of basketball is the basketball mesh's reaction to the ball going in. To accomplish this, I ended up adding in 3D elements - the net mesh utilizes the 3D Cloth component and a Skinned Mesh Renderer. Lastly, in order to have the 2D ball interact with the cloth renderer, I added a 3D collider to the ball.
 
 ### Multiplayer ###
 
