@@ -9,6 +9,7 @@ nav-menu:
 ---
 
 <!-- Banner -->
+<!--
 <section id="banner">
 	<div class="inner">
 		<header class="major">
@@ -20,6 +21,7 @@ nav-menu:
 		</ul>
 	</div>
 </section>
+-->
 
 <!-- Main -->
 <div id="main">
