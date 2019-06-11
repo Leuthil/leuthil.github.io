@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Portfolio
-landing-title: Portfolio
-description: Take a look around.
+title: Projects
+landing-title: Projects
+description:
 image: 
 author: 
 nav-menu: 
