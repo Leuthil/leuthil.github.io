@@ -52,7 +52,7 @@ As the target platform is mobile, I wanted to ensure that a duel was short enoug
 
 ### Nothing but Net ###
 
-I wanted specific gameplay elements to capture the same joy that real basketball can give you. One of the most satisfying aspects of basketball is the basketball mesh's reaction to the ball going in. To accomplish this, I ended up adding in 3D elements - the net mesh utilizes the 3D Cloth component and a Skinned Mesh Renderer. Lastly, in order to have the 2D ball interact with the cloth renderer, I added a 3D collider to the ball.
+I wanted specific gameplay elements to capture the same joy that real basketball can give you. One of the most satisfying aspects of basketball is the net's reaction to the ball going in. To accomplish this, I ended up adding in 3D elements - the net mesh utilizes the 3D Cloth component and a Skinned Mesh Renderer. Lastly, in order to have the 2D ball interact with the cloth renderer, I added a 3D collider to the ball.
 
 ### Multiplayer ###
 
