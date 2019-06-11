@@ -42,14 +42,14 @@ instagram_url:
 linkedin_url: https://www.linkedin.com/in/andrew-bruno-0b87704b
 pinterest_url: 
 slack_url: 
-twitter_url: https://twitter.com/leuthil
+twitter_url:
 
 # Build settings
 markdown: kramdown
 
 # Plugin: jekyll-seo-tag
 twitter:
-  username: leuthil
+  username:
 # Add one or more of the following
 facebook:
   app_id: 
