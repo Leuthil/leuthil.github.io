@@ -2,7 +2,7 @@
 layout: game
 title: Hoops Battle
 created: 2017-11-15
-description: Multiplayer Basketball Hoop Duel
+description: Multiplayer Basketball Duels
 image: /images/games/hoopsbattle/hoopsbattle1.jpg
 banner: /images/games/hoopsbattle/hoopsbattle1.jpg
 engine: Unity
