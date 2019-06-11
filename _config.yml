@@ -8,11 +8,11 @@
 # Site settings
 title: Andrew Bruno
 title-bold: Andrew Bruno
-title-normal: Hobbyist Game Developer
+title-normal: Software Developer / Hobbyist Game Designer & Developer
 email: brunoandrew@gmail.com
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://leuthil.github.io" # the base hostname & protocol for your site
+url: "http://andrewbruno.ca" # the base hostname & protocol for your site
 author: 
 street_address: 
 city: 

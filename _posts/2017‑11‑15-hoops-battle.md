@@ -1,32 +1,32 @@
 ---
 layout: game
-title: Hoops Battle
+title: Monster Munch
 created: 2017-11-15
-description: Multiplayer Basketball Hoop Duel
-image: /images/games/hoopsbattle/hoopsbattle1.jpg
-banner: /images/games/hoopsbattle/hoopsbattle1.jpg
+description: Ludum Dare 34 Jam Entry
+image: /images/games/monstermunch/monstermunch1.JPG
+banner: /images/games/monstermunch/monstermunch1.JPG
 engine: Unity
 platforms:
-  - name: Android
-    url: https://play.google.com/store/apps/details?id=ca.andrewbruno.hoopsbattle
-url: https://play.google.com/store/apps/details?id=ca.andrewbruno.hoopsbattle
-thumbnail: http://andrewbruno.ca/images/games/hoopsbattle/logo.png
+  - name: Unity Web Player
+    url: http://leuthil.itch.io/monster-munch
+url: http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=24714
+thumbnail: http://ludumdare.com/compo/wp-content/compo2//511439/24714-shot0-1450151525.jpg-crop-180-140.jpg
 media:
   - name:
     type: image
-    url: /images/games/hoopsbattle/hoopsbattle-2p-gameplay.gif
+    url: /images/games/monstermunch/monstermunch4.gif
   - name:
     type: image
-    url: /images/games/hoopsbattle/hoopsbattle-menu-gameplay.gif
+    url: /images/games/monstermunch/monstermunch1.JPG
   - name: 
     type: image
-    url: /images/games/hoopsbattle/hoopsbattle1.jpg
+    url: /images/games/monstermunch/monstermunch2.JPG
   - name: 
     type: image
-    url: /images/games/hoopsbattle/hoopsbattle2.jpg
+    url: /images/games/monstermunch/monstermunch3.JPG
 thirdparty:
-  - name: Google Play Games plugin for Unity
-    url: https://github.com/playgameservices/play-games-plugin-for-unity
+  - name: InControl
+    url: http://www.gallantgames.com/pages/incontrol-introduction
 ---
 
 Compete against your friends in the ultimate basketball hoop duel! This game is incomplete.
