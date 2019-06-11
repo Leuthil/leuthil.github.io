@@ -37,10 +37,10 @@ Compete against your friends in the ultimate basketball hoop duel! This game is 
 This game began as a project to give me experience developing a networked multiplayer game. It integrates with the [Google Play Games plugin for Unity](https://github.com/playgameservices/play-games-plugin-for-unity), which facilitates matchmaking and peer-to-peer communication.
 
 Despite originating as a multiplayer learning experience, the game has evolved to include the following features:
-- Two player online duel with matchmaking
-- Challenge a friend to an online duel
-- Two player local duel
-- Compete against AI
+- Quick online matchmaking
+- Challenge a friend online
+- Two player local play
+- Compete against AI of varying difficulties
 
 ### Basketball ###
 
