@@ -1,7 +1,7 @@
 ---
 layout: game
 title: Monster Munch
-created: 2015-12-14
+created: 2017-11-15
 description: Ludum Dare 34 Jam Entry
 image: /images/games/monstermunch/monstermunch1.JPG
 banner: /images/games/monstermunch/monstermunch1.JPG
