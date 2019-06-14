@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Hoops Battle
+permalink: /projects/hoops-battle.html
 created: 2017-11-15
 description: Multiplayer Basketball Duels
 image: /images/games/hoopsbattle/hoopsbattle1.jpg
