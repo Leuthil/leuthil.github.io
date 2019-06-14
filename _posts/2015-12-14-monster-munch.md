@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Monster Munch
+permalink: /projects/monster-munch.html
 created: 2015-12-14
 description: Ludum Dare 34 Jam Entry
 image: /images/games/monstermunch/monstermunch1.JPG
