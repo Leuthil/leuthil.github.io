@@ -14,10 +14,7 @@ thumbnail: http://andrewbruno.ca/images/games/hoopsbattle/logo.png
 media:
   - name:
     type: image
-    url: /images/games/hoopsbattle/hoopsbattle-2p-gameplay.gif
-  - name:
-    type: image
-    url: /images/games/hoopsbattle/hoopsbattle-menu-gameplay.gif
+    url: /images/games/hoopsbattle/hoopsbattle_gameplay.gif
   - name: 
     type: image
     url: /images/games/hoopsbattle/hoopsbattle1.jpg
@@ -31,26 +28,24 @@ thirdparty:
     url: https://github.com/playgameservices/play-games-plugin-for-unity
 ---
 
-
-Compete against your friends in the ultimate basketball hoop duel! This game is incomplete.
+Hoops Battle is an online or local 1v1 three pointer game. Challenge your friends or play against the world in the ultimate basketball hoop duel!
 
 ## Development ##
 
-This game began as a project to give me experience developing a networked multiplayer game. It integrates with the [Google Play Games plugin for Unity](https://github.com/playgameservices/play-games-plugin-for-unity), which facilitates matchmaking and peer-to-peer communication.
+This game began as a project to give me experience developing a networked multiplayer game. It integrates with the [Google Play Games plugin for Unity](https://github.com/playgameservices/play-games-plugin-for-unity), which facilitates matchmaking and peer-to-peer communication through the Google Play Games service.
 
-Despite originating as a multiplayer learning experience, the game has evolved to include the following features:
+The game has evolved to include the following features:
 - Quick online matchmaking
 - Challenge a friend online
 - Two player local play
-- Compete against AI of varying difficulties
 
 ### Basketball ###
 
-Before beginning work on the multiplayer component, I needed to actually implement a basketball throw and bounce mechanic that felt right. I started by integrating with Unity's mobile input system to create the basketball shoot mechanic. To generate the trajectory line, I used the Line Renderer component with a custom shader to create the moving dotted line effect. To ensure the basketball bounce felt realistic, I used various [basketball reference videos](https://www.youtube.com/watch?v=ZvgJ7mVxeg0) to ensure I had set the friction and bounce factor of the basketball just right.
+Before beginning work on the multiplayer component, I needed to actually implement a basketball throw and bounce mechanic that felt right. I started by integrating with Unity's mobile input system to create the basketball shoot mechanic. To generate the trajectory line, I used the Line Renderer component with a custom shader to create the moving dotted line effect.
 
 ### Design ###
 
-As the target platform is mobile, I wanted to ensure that a duel was short enough to allow players to stop when they need to, but also be long enough to feel satisfying. Deciding that the optimal game length was relatively short, I wanted to keep player retention high by automatically putting the player into a new duel right after finishing a previous one. I was able to implement this for all game modes.
+As the target platform is mobile, I wanted to ensure that a duel was short enough to allow players to stop when they need to, but also be long enough to feel satisfying. Deciding that the optimal game length should be relatively short, I also needed some mechanism to ensure that players stayed playing the game. To accomplish this, I made sure that when a match was finished, the game would automatically queue the player for their next match.
 
 ### Nothing but Net ###
 
