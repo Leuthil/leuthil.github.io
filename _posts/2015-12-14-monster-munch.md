@@ -30,7 +30,6 @@ thirdparty:
   - name: InControl
     url: http://www.gallantgames.com/pages/incontrol-introduction
 ---
-
 You work at a food production facility but haven't eaten all day. Your boss leaves for 2 minutes so you take the opportunity to indulge and eat as much as you can. Production in this facility is not always perfect so be careful for hazards and mishaps! This game is designed to be played with a controller with two analog sticks and two triggers.
 
 ## Development ##

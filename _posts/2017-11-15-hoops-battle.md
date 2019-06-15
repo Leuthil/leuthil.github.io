@@ -27,7 +27,6 @@ thirdparty:
   - name: Google Play Games plugin for Unity
     url: https://github.com/playgameservices/play-games-plugin-for-unity
 ---
-
 Hoops Battle is an online or local 1v1 three pointer game. Challenge your friends or play against the world in the ultimate basketball hoop duel!
 
 ## Development ##
