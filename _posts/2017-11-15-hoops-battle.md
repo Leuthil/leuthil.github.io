@@ -31,7 +31,7 @@ Hoops Battle is an online or local 1v1 three pointer game. Challenge your friend
 
 ## Development ##
 
-This game began as a project to give me experience developing a networked multiplayer game. It integrates with the [Google Play Games plugin for Unity](https://github.com/playgameservices/play-games-plugin-for-unity), which facilitates matchmaking and peer-to-peer communication through the Google Play Games service.
+This game began as a solo project to give me experience developing a networked multiplayer game. It integrates with the [Google Play Games plugin for Unity](https://github.com/playgameservices/play-games-plugin-for-unity), which facilitates matchmaking and peer-to-peer communication through the Google Play Games service.
 
 The game has evolved to include the following features:
 - Quick online matchmaking
