@@ -3,11 +3,11 @@ layout: project
 title: Monster Munch
 permalink: /projects/monster-munch.html
 created: 2015-12-14
-description: Ludum Dare 34 Jam Entry
+description: Ludum Dare 34 Game Jam Entry
 image: /images/games/monstermunch/monstermunch1.JPG
 banner: /images/games/monstermunch/monstermunch1.JPG
 platforms:
-  - name: Unity Web Player
+  - name: Unity Web Player (deprecated)
     url: http://leuthil.itch.io/monster-munch
 url: http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=24714
 thumbnail: http://ludumdare.com/compo/wp-content/compo2//511439/24714-shot0-1450151525.jpg-crop-180-140.jpg
