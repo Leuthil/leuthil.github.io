@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Scorekeeper
-permalink: /projects/hoops-battle.html
+permalink: /projects/scorekeeper.html
 created: 2019-01-16
 description: Keep score for any game!
 image: /images/apps/scorekeeper/scorekeeper1.jpg
