@@ -1,0 +1,13 @@
+{
+"companyName": "Andrew Bruno",
+"productName": "Inverse",
+"dataUrl": "Inverse2D.data.unityweb",
+"wasmCodeUrl": "Inverse2D.wasm.code.unityweb",
+"wasmFrameworkUrl": "Inverse2D.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#1A1A1A",
+"cacheControl": {"default": "must-revalidate"}
+}
