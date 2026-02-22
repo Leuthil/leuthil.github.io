@@ -8,9 +8,9 @@ image: /images/games/monstermunch/monstermunch1.JPG
 banner: /images/games/monstermunch/monstermunch1.JPG
 platforms:
   - name: Unity Web Player (deprecated)
-    url: http://leuthil.itch.io/monster-munch
-url: http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=24714
-thumbnail: http://ludumdare.com/compo/wp-content/compo2//511439/24714-shot0-1450151525.jpg-crop-180-140.jpg
+    url: https://leuthil.itch.io/monster-munch
+url: https://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=24714
+thumbnail: https://ludumdare.com/compo/wp-content/compo2//511439/24714-shot0-1450151525.jpg-crop-180-140.jpg
 media:
   - name:
     type: image
@@ -28,9 +28,9 @@ thirdparty:
   - name: Unity
     url: https://unity.com/
   - name: InControl
-    url: http://www.gallantgames.com/pages/incontrol-introduction
+    url: https://www.gallantgames.com/pages/incontrol-introduction
 ---
-You work at a food production facility but haven't eaten all day. Your boss leaves for 2 minutes so you take the opportunity to indulge and eat as much as you can. Production in this facility is not always perfect so be careful for hazards and mishaps! This game is designed to be played with a controller with two analog sticks and two triggers. The art was created by [Steve Bruno](http://stevebruno.ca).
+You work at a food production facility but haven't eaten all day. Your boss leaves for 2 minutes so you take the opportunity to indulge and eat as much as you can. Production in this facility is not always perfect so be careful for hazards and mishaps! This game is designed to be played with a controller with two analog sticks and two triggers. The art was created by [Steve Bruno](https://stevebruno.ca).
 
 ## Development ##
 
