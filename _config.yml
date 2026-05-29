@@ -6,6 +6,7 @@ email: brunoandrew@gmail.com
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://andrewbruno.ca" # the base hostname & protocol for your site
+repository: Leuthil/leuthil.github.io
 author: 
 street_address: 
 city: 
